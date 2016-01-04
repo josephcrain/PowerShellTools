@@ -110,7 +110,7 @@
                 else { $TableStyleDefault = $TableStyle; }
             }
             $HTMLTable = "<table border=""1"" cellpadding=""4"" cellspacing=""0"" style=""$TableStyleDefault"">`n"
-            if ($Title) { $HTMLTable += "<tr bgcolor=""$TitleBG""><td align=""center"" colspan=""$NumColumns""><strong><font color=""$TitleFG"">$Title</font></strong></td></tr>'`n" }
+            if ($Title) { $HTMLTable += "<tr bgcolor=""$TitleBG""><td align=""center"" colspan=""$NumColumns""><strong><font color=""$TitleFG"">$Title</font></strong></td></tr>`n" }
             $HTMLTable += "<tr bgcolor=""$HeaderBG"">`n";
 
             # Table Column Headers
